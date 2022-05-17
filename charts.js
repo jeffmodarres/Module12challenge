@@ -128,7 +128,7 @@ function buildCharts(sample) {
     var resultArray = metadata.filter(sampleObj => sampleObj.id == sample);
     var result = resultArray[0];
     
-    console.log(result)
+    // console.log(result)
 
     // 4. Create the trace for the gauge chart.
     var gaugeData = [
